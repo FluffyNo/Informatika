@@ -1,0 +1,63 @@
+№1 >
+x = float(input('Введите X '))
+y = float(input('Введите Y '))
+z = float(input('Введите Z '))
+print('s =', math.fabs(math.pow(x, y/x) - math.sqrt(y/x)))
+print('w = ', (y-x)*(y-(z/(y-x)))/(1+(y-x)**2))
+s = 370.22100741279
+w =  1.1207706158930015
+
+№2
+x = float(input('Введите X '))
+y = float(input('Введите Y '))
+print('s =', 1+x+(x**2/math.factorial(2))+(x**3/math.factorial(3))+(x**4/math.factorial(4)))
+print('w =', x*(math.sin(x) + math.cos(y)))
+s = 1.3909336337500002
+w = 0.4368682015702772
+
+№3
+a = float(input('Введите A '))
+b = float(input('Введите B '))
+t = float(input('Введите T '))
+print('y =', math.pow(math.e, -b*t) * math.sin(a*t+b)-math.sqrt(math.fabs(b*t+a)))
+print('w =', b*math.sin(a*t**2*math.cos(a*t))-1)
+y = -0.026633399372399336
+w = -1.1603549347415874
+
+№4
+a = float(input('Введите A '))
+b = float(input('Введите B '))
+x = float(input('Введите X '))
+print('w =', math.sqrt(x**2+b) - (b**2 * math.pow(math.sin(x+a), 3))/x)
+print('y =', math.pow(math.cos(x**3),2)-x/(math.sqrt((a**2)+(b**2))))
+w = 6.2722297189013005
+y = 0.7286082651403366
+
+№5
+a = float(input('Введите A '))
+b = float(input('Введите B '))
+x = float(input('Введите X '))
+print('s =', math.pow(x, 3) * math.pow(math.tan((x+b)**2), 2) + a/(math.sqrt(x+b)))
+print('g =', (b * math.pow(x, 2) - a) / (math.pow(math.e, a*x) -1))
+s = 8.27428788275372
+g = -0.0006481611311962283
+
+№6
+a = float(input('Введите A '))
+b = float(input('Введите B '))
+x = float(input('Введите X '))
+print('r =', (math.pow(x, 2) * (x + 1)) / b - math.pow(math.sin(x + a), 2))
+print('s =', math.sqrt((x * b)/a) + math.cos((x + b)**2))
+r = 6.631303142229378
+s = 1.1435769404581764
+
+№7
+a = float(input('Введите A '))
+b = float(input('Введите B '))
+x = float(input('Введите X '))
+print('y =', math.pow(math.sin( (math.pow(x, 2) + a)**2), 3) - math.sqrt(x/b))
+print('z =', math.pow(x, 2)/a + math.cos((x+b)**3))
+
+
+y = 1.341756009537726
+z = 1.0362680863973077
